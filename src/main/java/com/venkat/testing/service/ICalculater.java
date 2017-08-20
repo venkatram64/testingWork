@@ -8,6 +8,6 @@ public interface ICalculater {
     int add(int a, int b);
     int minus(int a, int b);
     int multiplication(int a, int b);
-    int divisition(int a, int b);
+    int divison(int a, int b);
 
 }

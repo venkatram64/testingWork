@@ -24,7 +24,7 @@ public class Calculater implements ICalculater{
     }
 
     @Override
-    public int divisition(int a, int b) {
+    public int divison(int a, int b) {
         return a/b;
     }
 }
