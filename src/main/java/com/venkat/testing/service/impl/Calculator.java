@@ -1,12 +1,12 @@
 package com.venkat.testing.service.impl;
 
-import com.venkat.testing.service.ICalculater;
+import com.venkat.testing.service.ICalculator;
 
 /**
  * Created by Srijan on 19-07-2016.
  */
 
-public class Calculater implements ICalculater{
+public class Calculator implements ICalculator {
 
     @Override
     public int add(int a, int b) {
@@ -24,7 +24,8 @@ public class Calculater implements ICalculater{
     }
 
     @Override
-    public int divison(int a, int b) {
+    public int division(int a, int b) {
+        if(b == 0) throw new ArithmeticException("Divison with zero");
         return a/b;
     }
 }
