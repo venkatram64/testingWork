@@ -7,4 +7,5 @@ import java.util.List;
  */
 public interface ITodoService {
     public List<String> getTodosByUser(String user);
+    public void deleteTodo(String todo);
 }
